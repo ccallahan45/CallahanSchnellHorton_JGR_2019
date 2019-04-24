@@ -7,4 +7,4 @@ The ./data/ folder in this repository includes processed data for each air quali
 
 Figure 2 was created directly from the processed index data ("R1_xx_1979-2016.nc") along with Beijing embassy PM2.5 data ("beijing_pm25_data_2010-2016.nc"). "RATIOS_xx.rds" are the files used to create Figure 3 (return period ratios). "LENS_TRENDS_xx.rds" are used to create Figure 4 (trends boxplots) and "IV_PERCENTS_xx.rds" are used to create Figure 5 (ratios of forced trend to internal variability).
 
-The notebook PLOT_FIG3_FIG4_FIG5.ipynb will plot each of those three figures (and they're shown inline) using the data provided. If you want to run this separately/modify it, etc. you'll have to set the input data directory to wherever you download the data to.
+The notebook PLOT_FIG3_FIG4_FIG5.ipynb will plot each of those three figures (and they're shown inline) using the data provided. If you want to run this separately/modify it, etc. you'll have to set the input data directory to wherever you download the data to. You'll also have to make sure you have the right packages installed (see top of script).
